@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="chrome-clip-path">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="30" cy="30" r="30"/>
+    </clipPath>
+    <linearGradient id="chrome-linear-gradient" x1="0.045" y1="0.621" x2="0.369" y2="0.337" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a52714" stop-opacity="0.6"/>
+      <stop offset="0.66" stop-color="#a52714" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chrome-linear-gradient-2" x1="0.839" y1="0.878" x2="0.363" y2="0.663" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#055524" stop-opacity="0.4"/>
+      <stop offset="0.33" stop-color="#055524" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="chrome-clip-path-2">
+      <path id="Path_56" data-name="Path 56" d="M8,78.862H36.558L49.813,65.607V55.68H26.187L8,24.48Z" transform="translate(-8 -24.48)"/>
+    </clipPath>
+    <linearGradient id="chrome-linear-gradient-3" x1="0.327" y1="-0.048" x2="0.486" y2="0.454" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ea6100" stop-opacity="0.302"/>
+      <stop offset="0.66" stop-color="#ea6100" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="chrome-clip-path-3">
+      <path id="Path_61" data-name="Path 61" d="M93.212,56l11.813,20.455L91.77,99.636h31.442V56Z" transform="translate(-91.77 -56)"/>
+    </clipPath>
+    <radialGradient id="chrome-radial-gradient" cx="-0.048" cy="-0.002" r="4.013" gradientTransform="translate(5.348) scale(0.267 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3e2723" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#3e2723" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="chrome-clip-path-6">
+      <path id="Path_65" data-name="Path 65" d="M21.97,8V21.752L35.4,44.818,47.207,24.364h30V8Z" transform="translate(-21.97 -8)"/>
+    </clipPath>
+    <radialGradient id="chrome-radial-gradient-2" cx="-0.001" cy="0.001" r="1.155" gradientTransform="translate(-1.81) scale(1.18 1)" xlink:href="#chrome-radial-gradient"/>
+    <radialGradient id="chrome-radial-gradient-3" cx="0.102" cy="-0.122" r="1.124" gradientTransform="translate(-15.156) scale(2.014 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#263238" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#263238" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Google_Chrome_icon__September_2014_" data-name="Google_Chrome_icon_(September_2014)" transform="translate(-1 -1)">
+    <g id="Group_43" data-name="Group 43" transform="translate(1 1)" clip-path="url(#chrome-clip-path)">
+      <path id="Path_48" data-name="Path 48" d="M21.97,8V44.818H35.4L47.207,24.364h30V8Z" transform="translate(-17.207 -8)" fill="#db4437"/>
+      <path id="Path_49" data-name="Path 49" d="M21.97,8V44.818H35.4L47.207,24.364h30V8Z" transform="translate(-17.207 -8)" fill="url(#chrome-linear-gradient)"/>
+      <path id="Path_50" data-name="Path 50" d="M35.673,70.584,22.1,47.3l-.2.341L35.38,70.755Z" transform="translate(-17.161 -33.902)" fill="rgba(62,39,35,0.15)"/>
+      <path id="Path_51" data-name="Path 51" d="M8,78.862H36.558L49.813,65.607V55.68H26.187L8,24.48Z" transform="translate(-8 -18.862)" fill="#0f9d58"/>
+      <path id="Path_52" data-name="Path 52" d="M8,78.862H36.558L49.813,65.607V55.68H26.187L8,24.48Z" transform="translate(-8 -18.862)" fill="url(#chrome-linear-gradient-2)"/>
+      <path id="Path_53" data-name="Path 53" d="M103.944,116.984l-.283-.164L90.57,139.712h.392l12.989-22.718Z" transform="translate(-62.421 -79.722)" fill="rgba(38,50,56,0.15)"/>
+      <g id="Group_41" data-name="Group 41" transform="translate(0 5.618)" clip-path="url(#chrome-clip-path-2)">
+        <path id="Path_54" data-name="Path 54" d="M93.212,56l11.813,20.455L91.77,99.636h31.442V56Z" transform="translate(-63.212 -45.255)" fill="#ffcd40"/>
+        <path id="Path_55" data-name="Path 55" d="M93.212,56l11.813,20.455L91.77,99.636h31.442V56Z" transform="translate(-63.212 -45.255)" fill="url(#chrome-linear-gradient-3)"/>
+      </g>
+      <path id="Path_57" data-name="Path 57" d="M93.212,56l11.813,20.455L91.77,99.636h31.442V56Z" transform="translate(-63.212 -39.636)" fill="#ffcd40"/>
+      <path id="Path_58" data-name="Path 58" d="M93.212,56l11.813,20.455L91.77,99.636h31.442V56Z" transform="translate(-63.212 -39.636)" fill="url(#chrome-linear-gradient-3)"/>
+      <g id="Group_42" data-name="Group 42" transform="translate(28.558 16.364)" clip-path="url(#chrome-clip-path-3)">
+        <path id="Path_59" data-name="Path 59" d="M21.97,8V44.818H35.4L47.207,24.364h30V8Z" transform="translate(-45.765 -24.364)" fill="#db4437"/>
+        <path id="Path_60" data-name="Path 60" d="M21.97,8V44.818H35.4L47.207,24.364h30V8Z" transform="translate(-45.765 -24.364)" fill="url(#chrome-linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_47" data-name="Group 47" transform="translate(1 1)">
+      <g id="Group_44" data-name="Group 44" clip-path="url(#chrome-clip-path)">
+        <path id="Path_62" data-name="Path 62" d="M96,56v7.142L122.727,56Z" transform="translate(-66 -39.636)" fill="url(#chrome-radial-gradient)"/>
+      </g>
+      <g id="Group_46" data-name="Group 46" clip-path="url(#chrome-clip-path)">
+        <g id="Group_45" data-name="Group 45" transform="translate(4.762)" clip-path="url(#chrome-clip-path-6)">
+          <path id="Path_63" data-name="Path 63" d="M8,78.862H36.558L49.813,65.607V55.68H26.187L8,24.48Z" transform="translate(-12.763 -18.862)" fill="#0f9d58"/>
+          <path id="Path_64" data-name="Path 64" d="M8,78.862H36.558L49.813,65.607V55.68H26.187L8,24.48Z" transform="translate(-12.763 -18.862)" fill="url(#chrome-linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_48" data-name="Group 48" transform="translate(1 1)" clip-path="url(#chrome-clip-path)">
+      <path id="Path_66" data-name="Path 66" d="M21.97,48.45,41.487,67.964,35.4,71.478Z" transform="translate(-17.207 -34.66)" fill="url(#chrome-radial-gradient-2)"/>
+    </g>
+    <g id="Group_51" data-name="Group 51" transform="translate(1 1)">
+      <g id="Group_49" data-name="Group 49" clip-path="url(#chrome-clip-path)">
+        <path id="Path_67" data-name="Path 67" d="M91.83,132.359,98.975,105.7l6.089,3.511Z" transform="translate(-63.252 -72.393)" fill="url(#chrome-radial-gradient-3)"/>
+      </g>
+      <g id="Group_50" data-name="Group 50" clip-path="url(#chrome-clip-path)">
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="13.636" cy="13.636" r="13.636" transform="translate(16.364 16.364)" fill="#f1f1f1"/>
+        <circle id="Ellipse_12" data-name="Ellipse 12" cx="10.909" cy="10.909" r="10.909" transform="translate(19.091 19.091)" fill="#4285f4"/>
+        <path id="Path_68" data-name="Path 68" d="M69.636,55A13.633,13.633,0,0,0,56,68.636v.341A13.633,13.633,0,0,1,69.636,55.341h30V55Z" transform="translate(-39.636 -38.977)" fill="rgba(62,39,35,0.2)"/>
+        <path id="Path_69" data-name="Path 69" d="M49.8,55.68a13.612,13.612,0,0,1-23.591,0h-.014L8,24.48v.341l18.2,31.2a13.612,13.612,0,0,0,23.591,0h.017V55.68h-.02Z" transform="translate(-8 -18.862)" fill="rgba(255,255,255,0.1)"/>
+        <path id="Path_70" data-name="Path 70" d="M96.67,56c-.058,0-.113.007-.17.01a13.627,13.627,0,0,1,0,27.252c.058,0,.113.01.17.01A13.636,13.636,0,1,0,96.67,56Z" transform="translate(-66.33 -39.636)" fill="#3e2723" opacity="0.1"/>
+        <path id="Path_71" data-name="Path 71" d="M105.144,96.176a13.591,13.591,0,0,0,1.193-10.926,13.485,13.485,0,0,1-1.319,10.463l.007.014L91.77,118.908h.4Z" transform="translate(-63.212 -58.915)" fill="rgba(255,255,255,0.2)"/>
+        <path id="Path_72" data-name="Path 72" d="M38,8.341A30,30,0,0,1,68,38.17c0-.058,0-.112,0-.17A30,30,0,0,0,8,38c0,.058,0,.113,0,.17A30,30,0,0,1,38,8.341Z" transform="translate(-8 -8)" fill="rgba(255,255,255,0.2)"/>
+        <path id="Path_73" data-name="Path 73" d="M38,125.33A30,30,0,0,0,68,95.5c0,.058,0,.113,0,.17a30,30,0,0,1-60,0c0-.058,0-.113,0-.17a30,30,0,0,0,30,29.83Z" transform="translate(-8 -65.67)" fill="rgba(62,39,35,0.15)"/>
+      </g>
+    </g>
+  </g>
+</svg>
