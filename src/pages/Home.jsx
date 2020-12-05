@@ -1,6 +1,8 @@
+import Splash from '../components/home/splash'
+
 const Home = props => {
     return (
-        <div>Home</div>
+        <Splash />
     )
 }
 
