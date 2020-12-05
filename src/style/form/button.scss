@@ -1,4 +1,4 @@
-@import '../main/variables';
+@import "../main/variables";
 
 button {
     display: flex;
@@ -14,7 +14,7 @@ button {
     border: 0px;
     border-radius: 4px;
     cursor: pointer;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     transition-property: background-color;
 
     i {
@@ -22,11 +22,24 @@ button {
         margin-right: 10px;
     }
 
+    &.large {
+        font-size: 16px;
+        padding: 16px 33px;
+    }
+
     &.algaegreen {
         background-color: $algaegreen;
 
         &:hover {
             background-color: $pastelgreen;
+        }
+    }
+
+    &.azureradiance {
+        background-color: $azureradiance;
+
+        &:hover {
+            background-color: $toryblue;
         }
     }
 }

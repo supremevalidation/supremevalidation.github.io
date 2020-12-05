@@ -10,7 +10,7 @@ const Header = props => {
     return (
         <Container>
             <header>
-                <Link to="/">
+                <Link to="/" className="logo">
                     <Logo />
                 </Link>
                 <nav>

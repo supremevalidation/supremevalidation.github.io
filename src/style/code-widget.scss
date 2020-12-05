@@ -1,0 +1,32 @@
+@import "./main/variables";
+
+.code-widget {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    border: solid 1px $athensgray;
+    background-color: $athensgraylight;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+        i {
+            color: $black;
+        }
+    }
+
+    code {
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Courier New", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+        color: $black;
+    }
+
+    i {
+        font-size: 27px;
+        color: $palesky;
+        transition-duration: .5s;
+        transition-property: color;
+        margin-left: 50px;
+    }
+}
