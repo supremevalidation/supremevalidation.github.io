@@ -1,0 +1,32 @@
+@import '../main/variables';
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+
+    appearance: none;
+    outline: none;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: .5s;
+    transition-property: background-color;
+
+    i {
+        font-size: 23px;
+        margin-right: 10px;
+    }
+
+    &.algaegreen {
+        background-color: $algaegreen;
+
+        &:hover {
+            background-color: $pastelgreen;
+        }
+    }
+}

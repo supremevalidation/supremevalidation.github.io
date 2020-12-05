@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+        display: flex;
+
+        .language-button {
+            cursor: pointer;
+            margin-left: 30px;
+        }
+    }
+}  

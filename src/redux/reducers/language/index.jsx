@@ -1,17 +1,12 @@
 import { LANGUAGE_CHANGE } from '../../actions-types'
 
-const initialState = {
-    current: 'EN'
-}
+const initialState = 'EN'
 
 const alert = (state = initialState, action) => {
     switch (action.type) {
 
         case LANGUAGE_CHANGE:
-            return {
-                ...state,
-                current: action.language
-            }
+            return action.language
 
         default:
             return state;
