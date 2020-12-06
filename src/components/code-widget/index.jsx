@@ -2,14 +2,14 @@ import { useRef, useState } from 'react';
 import { FormattedMessage } from 'react-intl'
 
 const CodeWidget = props => {
-    const code = useRef(null);
+    const codeElement = useRef(null);
 
     let [isCopied, setIsCopied] = useState(false);
 
     const copyTextClipboard = () => {
         if (!isCopied) {
             setIsCopied(true)
-            navigator.clipboard.writeText(code.current.innerText)
+            navigator.clipboard.writeText(codeElement.current.innerText)
             resetCopiedInfo()
         }
     }
@@ -27,7 +27,7 @@ const CodeWidget = props => {
             <div className="copy-message">
                 <FormattedMessage id='copied.info' defaultMessage="Copied text to clipboard." />
             </div>
-            <code ref={code}>{props.code}</code>
+            <code ref={codeElement}>{props.code}</code>
             <i className="icon-copy"></i>
         </div>
     )

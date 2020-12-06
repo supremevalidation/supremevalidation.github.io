@@ -1,0 +1,52 @@
+.development-environment-item {
+    display: flex;
+    margin-bottom: 150px;
+    padding-bottom: 150px;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid $athensgraydark;
+    }
+
+    figure {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 284px;
+        border-radius: 6px;
+        margin: 0;
+
+        i {
+            color: $white;
+            font-size: 70px;
+        }
+
+        &.indigo {
+            background-color: $indigo;
+        }
+
+        &.aliceblue {
+            background-color: $aliceblue;
+
+            i {
+                color: $scienceblue;
+            }
+        }
+
+        &.guardsmanred {
+            background-color: $guardsmanred;
+        }
+    }
+
+    article {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 100px;
+
+        h3 {
+            margin-bottom: 10px;
+        }
+    }
+}
