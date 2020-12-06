@@ -3,5 +3,6 @@
     "home.splash.h1": "Supreme Validation",
     "home.splash.h2": "Form validation solution for any developer.",
     "home.splash.p": "Simple to use, useful features and user-friendly interface.",
-    "button.getstarted": "Get Started"
+    "button.getstarted": "Get Started",
+    "copied.info": "Copied text to clipboard."
 }
