@@ -1,0 +1,43 @@
+@import './main/variables';
+
+.services-item {
+    text-align: center;
+
+    figure {
+        margin-bottom: 20px;
+
+        &.sunglo {
+            color: $sunglo;
+        }
+    
+        &.portage {
+            color: $portage;
+        }
+    
+        &.tanhide {
+            color: $tanhide;
+        }
+    
+        &.periwinkle {
+            color: $periwinkle;
+        }
+    
+        &.algaegreen {
+            color: $algaegreen;
+        }
+    
+        &.chenin {
+            color: $chenin;
+        }
+
+        i {
+            font-size: 40px;
+        }
+    }
+
+    article {
+        h4 {
+            margin-bottom: 5px;
+        }
+    }
+}
