@@ -19,6 +19,27 @@
     "home.environments.github.detail": "You can easily access project codes. You can review my code and support me.",
     "home.environments.npm.detail": "You can follow project versions and easily download project.",
 
+    "sidebar.gettingStarted.title": "GETTING STARTED",
+
+    "sidebar.gettingStarted.installation.title": "Installation",
+    "sidebar.gettingStarted.installation.github.detail": "You can clone repo from Github and free use in your project. Copy this code and paste code in console.",
+    "sidebar.gettingStarted.installation.npm.detail": "You can download up to date npm package. Copy this code and paste code in console.",
+
+    "sidebar.gettingStarted.usage.title": "Usage",
+    "sidebar.gettingStarted.usage.js.detail": "Place one of the following script near the end of your pages, right before the closing body tag, to enable them. jQuery must come first, then our JavaScript plugin.",
+    "sidebar.gettingStarted.usage.css.detail": "Copy-paste the stylesheet into your before all other stylesheets to load our CSS. You can use ready-made theme if you want.",
+    "sidebar.gettingStarted.usage.html.detail": "You must use class for working plugin. You can use code below.",
+
+    "sidebar.api.title": "API",
+    "sidebar.api.options.title": "Options",
+    "sidebar.api.classes.title": "Classes",
+    "sidebar.api.attributes.title": "Attributes",
+    "sidebar.api.events.title": "Events",
+
+    "sidebar.support.title": "SUPPORT",
+    "sidebar.support.browser.title": "Browser",
+    "sidebar.support.contact.title": "Contact",
+
     "button.getstarted": "Get Started",
     "copied.info": "Copied text to clipboard."
 }

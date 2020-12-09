@@ -19,6 +19,27 @@
     "home.environments.github.detail": "Proje kodlarına kolayca ulaşabilirsiniz. Kodumu inceleyebilir ve beni destekleyebilirsiniz.",
     "home.environments.npm.detail": "Proje versiyonlarını takip edebilir ve projeyi kolayca indirebilirsiniz.",
 
+    "sidebar.gettingStarted.title": "BAŞLANGIÇ",
+
+    "sidebar.gettingStarted.installation.title": "Kurulum",
+    "sidebar.gettingStarted.installation.github.detail": "Github'dan repo klonlayabilir ve projenizde ücretsiz kullanabilirsiniz. Bu kodu kopyalayın ve konsola yapıştırın.",
+    "sidebar.gettingStarted.installation.npm.detail": "Güncel npm paketini indirebilirsiniz. Bu kodu kopyalayın ve konsola yapıştırın.",
+
+    "sidebar.gettingStarted.usage.title": "Kullanım",
+    "sidebar.gettingStarted.usage.js.detail": "Aşağıdaki script dosyalarını sayfanızın sonuna, body etiketinin hemen öncesine yerleştirin. Önce jQuery, ardından JavaScript eklentimiz gelmelidir.",
+    "sidebar.gettingStarted.usage.css.detail": "CSS'mizi yüklemek için diğer tüm stil sayfalarından önce stil sayfasını kopyalayıp yapıştırın. Hazır temayı dilerseniz kullanabilirsiniz.",
+    "sidebar.gettingStarted.usage.html.detail": "Eklentinin çalışması için class kullanmalısınız. Aşağıdaki kodu kullanabilirsiniz.",
+
+    "sidebar.api.title": "API",
+    "sidebar.api.options.title": "Ayarlar",
+    "sidebar.api.classes.title": "Sınıflar",
+    "sidebar.api.attributes.title": "Özellikler",
+    "sidebar.api.events.title": "Dinleyiciler",
+
+    "sidebar.support.title": "DESTEK",
+    "sidebar.support.browser.title": "Tarayıcı",
+    "sidebar.support.contact.title": "İletişim",
+
     "button.getstarted": "Başla",
     "copied.info": "Metin panoya kopyalandı."
 }
