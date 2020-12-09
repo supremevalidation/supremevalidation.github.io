@@ -9,6 +9,7 @@ import English from "./language/en.json";
 import Header from './components/layout/header'
 
 import Home from './pages/Home'
+import Installation from './pages/Installation'
 import ErrorPage from './pages/ErrorPage'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                 <Container>
                     <Switch>
                         <Route exact path="/" component={Home} />
+                        <Route exact path="/installation" component={Installation} />
                         <Route component={ErrorPage} />
                     </Switch>
                 </Container>

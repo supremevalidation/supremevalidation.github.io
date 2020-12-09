@@ -1,0 +1,33 @@
+aside {
+    border-right: 1px solid $athensgraydark;
+
+    h4 {
+        margin-bottom: 15px;
+    }
+
+    ul {
+        padding-left: 0;
+        margin-bottom: 0;
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        li {
+            list-style-type: none;
+            margin-bottom: 10px;
+
+            a {
+                font-size: 16px;
+                color: $black;
+                transition-duration: 0.5s;
+                transition-property: color;
+                text-decoration: none !important;
+
+                &:hover {
+                    color: $azureradiance;
+                }
+            }
+        }
+    }
+}

@@ -14,7 +14,9 @@ const Header = props => {
                     <Logo />
                 </Link>
                 <nav>
-                    <Button icon="book" color="algaegreen" title={<FormattedMessage id='header.documentation' defaultMessage="Documentation" />} />
+                    <Link to="/installation" className="logo">
+                        <Button icon="book" color="algaegreen" title={<FormattedMessage id='header.documentation' defaultMessage="Documentation" />} />
+                    </Link>
                     <Language />
                 </nav>
             </header>
