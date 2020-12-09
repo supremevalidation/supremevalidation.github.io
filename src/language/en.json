@@ -3,6 +3,22 @@
     "home.splash.h1": "Supreme Validation",
     "home.splash.h2": "Form validation solution for any developer.",
     "home.splash.p": "Simple to use, useful features and user-friendly interface.",
+    "home.services.rocket.title": "As fast as a Ferrari",
+    "home.services.rocket.detail": "High performance and quality code.",
+    "home.services.cogs.title": "Simple to use",
+    "home.services.cogs.detail": "Easy to use and understandable options.",
+    "home.services.brush.title": "UI/UX",
+    "home.services.brush.detail": "User friendly interface.",
+    "home.services.openSource.title": "Open source",
+    "home.services.openSource.detail": "You can review my code and support me.",
+    "home.services.book.title": "Documentation",
+    "home.services.book.detail": "Descriptive and easy to read documentation.",
+    "home.services.design.title": "Design",
+    "home.services.design.detail": "You can use our own form theme if you wish.",
+    "home.environments.codacy.detail": "Codes refactoring by code review. Goal is reach best code quality.",
+    "home.environments.github.detail": "You can easily access project codes. You can review my code and support me.",
+    "home.environments.npm.detail": "You can follow project versions and easily download project.",
+
     "button.getstarted": "Get Started",
     "copied.info": "Copied text to clipboard."
 }

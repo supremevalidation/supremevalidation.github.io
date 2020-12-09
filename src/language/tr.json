@@ -3,6 +3,22 @@
     "home.splash.h1": "Supreme Validation",
     "home.splash.h2": "Geliştiriciler için form validasyon çözümü.",
     "home.splash.p": "Kullanımı basit, kullanışlı özellikler ve kullanıcı dostu arayüz.",
+    "home.services.rocket.title": "Bir Ferrari kadar hızlı",
+    "home.services.rocket.detail": "Yüksek performans ve kaliteli kod.",
+    "home.services.cogs.title": "Kullanımı kolay",
+    "home.services.cogs.detail": "Kullanımı kolay ve anlaşılır seçenekler.",
+    "home.services.brush.title": "UI/UX",
+    "home.services.brush.detail": "Kullanıcı dostu arayüz.",
+    "home.services.openSource.title": "Açık kaynak",
+    "home.services.openSource.detail": "Kodumu inceleyebilir ve beni destekleyebilirsiniz.",
+    "home.services.book.title": "Dokümantasyon",
+    "home.services.book.detail": "Açıklayıcı ve okunması kolay dokümantasyon.",
+    "home.services.design.title": "Tasarım",
+    "home.services.design.detail": "Dilerseniz kendi form temamızı kullanabilirsiniz.",
+    "home.environments.codacy.detail": "Kod incelemesine göre kodlar yeniden düzenlenir. Hedef, en iyi kod kalitesine ulaşmaktır.",
+    "home.environments.github.detail": "Proje kodlarına kolayca ulaşabilirsiniz. Kodumu inceleyebilir ve beni destekleyebilirsiniz.",
+    "home.environments.npm.detail": "Proje versiyonlarını takip edebilir ve projeyi kolayca indirebilirsiniz.",
+
     "button.getstarted": "Başla",
     "copied.info": "Metin panoya kopyalandı."
 }
