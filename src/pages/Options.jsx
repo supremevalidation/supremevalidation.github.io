@@ -1,11 +1,28 @@
-import Detail from '../components/detail'
+import Detail from '../components/detail';
 
-const Installation = props => {
+const Options = props => {
     return (
         <Detail {...props}>
-            <div>dasda</div>
+            <article className="detail-item">
+                <h4>buttonDisabled</h4>
+                <p className="feature"><strong>Type:</strong> Boolean</p>
+                <p className="feature"><strong>Default:</strong> false</p>
+                <p>Place one of the following script near the end of your pages, right before the closing body tag, to enable them.</p>
+            </article>
+            <article className="detail-item">
+                <h4>keyUpOption</h4>
+                <p className="feature"><strong>Type:</strong> Boolean</p>
+                <p className="feature"><strong>Default:</strong> false</p>
+                <p>Place one of the following script near the end of your pages, right before the closing body tag, to enable them.</p>
+            </article>
+            <article className="detail-item">
+                <h4>focusOutOption</h4>
+                <p className="feature"><strong>Type:</strong> Boolean</p>
+                <p className="feature"><strong>Default:</strong> false</p>
+                <p>Place one of the following script near the end of your pages, right before the closing body tag, to enable them.</p>
+            </article>
         </Detail>
     )
 }
 
-export default Installation;
+export default Options;

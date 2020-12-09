@@ -8,7 +8,26 @@
     border: solid 1px $athensgray;
     background-color: $athensgraylight;
     border-radius: 6px;
+    word-break: break-all;
+    max-width: max-content;
     cursor: pointer;
+
+    &.children {
+        cursor: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: none;
+
+        p {
+            font-weight: 600;
+        }
+    }
+
+    &.large {
+        code {
+            font-size: 18px;
+        }
+    }
 
     &.copied {
         .copy-message {
@@ -39,7 +58,7 @@
     }
 
     code {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 600;
         font-family: "Courier New", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
         color: $black;

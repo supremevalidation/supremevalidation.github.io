@@ -14,7 +14,7 @@ const Splash = props => {
                 <p className="large"><FormattedMessage id='home.splash.p' defaultMessage="Simple to use, good features and user-friendly interface." /></p>
                 <div className="d-flex align-items-center justify-content-center">
                     <Button color="azureradiance" large={true} title={<FormattedMessage id='button.getstarted' defaultMessage="Get Started" />} />
-                    <CodeWidget code="npm install supreme-validation" />
+                    <CodeWidget isLarge={true} code="npm install supreme-validation" />
                 </div>
             </article>
         </section>

@@ -1,11 +1,46 @@
-import Detail from '../components/detail'
+import Detail from "../components/detail";
+import { Row, Col } from "react-bootstrap"
+import { Explorer, Edge, Firefox, Opera, Safari, Chrome } from "../components/svg";
 
-const Installation = props => {
+const Browser = props => {
     return (
         <Detail {...props}>
-            <div>dasda</div>
+            <Row>
+                <Col md={4}>
+                    <div className="browser-card">
+                        <Explorer />
+                    </div>
+                </Col>
+                <Col md={4}>
+                    <div className="browser-card">
+                        <Edge />
+                    </div>
+                </Col>
+                <Col md={4}>
+                    <div className="browser-card">
+                        <Firefox />
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={4}>
+                    <div className="browser-card">
+                        <Opera />
+                    </div>
+                </Col>
+                <Col md={4}>
+                    <div className="browser-card">
+                        <Safari />
+                    </div>
+                </Col>
+                <Col md={4}>
+                    <div className="browser-card">
+                        <Chrome />
+                    </div>
+                </Col>
+            </Row>
         </Detail>
     )
 }
 
-export default Installation;
+export default Browser;

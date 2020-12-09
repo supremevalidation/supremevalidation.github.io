@@ -28,10 +28,10 @@ const Detail = props => {
             <h1 className="blue large">Supreme Validation</h1>
             <h2 className="small">{getTitles().title}</h2>
             <Row>
-                <Col md={4}>
+                <Col md={3}>
                     <Sidebar data={SidebarData} {...props} />
                 </Col>
-                <Col md={{ span: 7, offset: 1 }}>
+                <Col md={{ span: 8, offset: 1 }}>
                     <h3>{getTitles().subTitle}</h3>
                     {
                         props.children

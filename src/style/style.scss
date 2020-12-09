@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-@import './main/variables';
-@import './main/reset';
-@import './main/icons';
-@import './main/typography';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import "./main/variables";
+@import "./main/reset";
+@import "./main/icons";
+@import "./main/typography";
 
-@import './layout/header';
+@import "./layout/header";
 
-@import './form/button';
+@import "./form/button";
 
-@import './splash-section';
-@import './services-section';
-@import './development-environments-section';
-@import './detail-section';
+@import "./splash-section";
+@import "./services-section";
+@import "./development-environments-section";
+@import "./detail-section";
 
-@import './services-item';
-@import './development-environment-item';
-@import './code-widget';
-@import './sidebar';
+@import "./services-item";
+@import "./development-environment-item";
+@import "./detail-item";
+
+@import "./browser-card";
+
+@import "./code-widget";
+@import "./sidebar";

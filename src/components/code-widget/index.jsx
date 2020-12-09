@@ -22,15 +22,19 @@ const CodeWidget = props => {
         }, 3000);
     }
 
-    return (
-        <div className={`code-widget${isCopied ? ' copied' : ''}`} onClick={copyTextClipboard}>
-            <div className="copy-message">
-                <FormattedMessage id='copied.info' defaultMessage="Copied text to clipboard." />
-            </div>
-            <code ref={codeElement}>{props.code}</code>
-            <i className="icon-copy"></i>
+    return props.children ? (
+        <div className={`code-widget${props.isLarge ? ' large' : ''}${props.children ? ' children' : ''}`}>
+            {props.children}
         </div>
-    )
+    ) : (
+            <div className={`code-widget${isCopied ? ' copied' : ''}${props.isLarge ? ' large' : ''}`} onClick={copyTextClipboard}>
+                <div className="copy-message">
+                    <FormattedMessage id='copied.info' defaultMessage="Copied text to clipboard." />
+                </div>
+                <code ref={codeElement}>{props.code}</code>
+                <i className="icon-copy"></i>
+            </div>
+        )
 }
 
 export default CodeWidget;
