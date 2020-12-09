@@ -8,9 +8,16 @@ import English from "./language/en.json";
 
 import Header from './components/layout/header'
 
-import Home from './pages/Home'
-import Installation from './pages/Installation'
-import ErrorPage from './pages/ErrorPage'
+import Home from './pages/Home';
+import Installation from './pages/Installation';
+import Usage from './pages/Usage';
+import Options from './pages/Options';
+import Classes from './pages/Classes';
+import Attributes from './pages/Attributes';
+import Events from './pages/Events';
+import Browser from './pages/Browser';
+import Contact from './pages/Contact';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
     const language = useSelector(state => state.language);
@@ -23,6 +30,13 @@ function App() {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/installation" component={Installation} />
+                        <Route exact path="/usage" component={Usage} />
+                        <Route exact path="/options" component={Options} />
+                        <Route exact path="/classes" component={Classes} />
+                        <Route exact path="/attributes" component={Attributes} />
+                        <Route exact path="/events" component={Events} />
+                        <Route exact path="/browser" component={Browser} />
+                        <Route exact path="/contact" component={Contact} />
                         <Route component={ErrorPage} />
                     </Switch>
                 </Container>

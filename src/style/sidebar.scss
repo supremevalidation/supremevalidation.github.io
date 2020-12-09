@@ -28,6 +28,10 @@ aside {
                 transition-property: color;
                 text-decoration: none !important;
 
+                &.active {
+                    color: $azureradiance;
+                }
+
                 &:hover {
                     color: $azureradiance;
                 }
