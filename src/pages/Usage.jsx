@@ -2,6 +2,14 @@ import { FormattedMessage } from "react-intl";
 import Detail from "../components/detail";
 import CodeWidget from "../components/code-widget";
 
+const HTML_CODE =
+`<form id="contact-form" class="supreme-validate">
+    <div class="supreme-validate-element" error-message="Required field">
+        <label>Name:</label>
+        <input type="text" placeholder="Name" name="name">
+    </div>
+</form>`
+
 const Usage = props => {
     return (
         <Detail {...props}>
@@ -31,12 +39,7 @@ const Usage = props => {
                     <FormattedMessage id="sidebar.gettingStarted.usage.html.detail" defaultMessage="You can clone repo from Github and free use in your project. Copy this code and paste code in console." />
                 </p>
                 <CodeWidget>
-                    <code>{'<form id="contact-form" class="supreme-validate">'}</code>
-                    <code>{'<div class="supreme-validate-element" error-message="Required field">'}</code>
-                    <code>{'<label>Name:</label>'}</code>
-                    <code>{'<input type="text" placeholder="Name" name="name">'}</code>
-                    <code>{'</div>'}</code>
-                    <code>{'</form>'}</code>
+                    <code>{HTML_CODE}</code>
                 </CodeWidget>
             </article>
         </Detail >
