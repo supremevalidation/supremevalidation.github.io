@@ -39,6 +39,11 @@
     "sidebar.api.options.focusOutOption.detail": "Form element is validated only if focus out.",
 
     "sidebar.api.classes.title": "Classes",
+    "sidebar.api.classes.supremeValidate.detail": "You must add this class on form element if you want form validation.",
+    "sidebar.api.classes.supremeValidateElement.detail": "You must add this class on form item element for to be validation.",
+    "sidebar.api.classes.checkboxList.detail": "You must add this class on check-box element for validation.",
+    "sidebar.api.classes.radioList.detail": "You must add this class on radio-button element for validation.",
+
     "sidebar.api.attributes.title": "Attributes",
     "sidebar.api.events.title": "Events",
 

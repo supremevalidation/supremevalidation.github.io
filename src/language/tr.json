@@ -39,6 +39,11 @@
     "sidebar.api.options.focusOutOption.detail": "Form öğesi yalnızca focus out olursa doğrulanır.",
 
     "sidebar.api.classes.title": "Sınıflar",
+    "sidebar.api.classes.supremeValidate.detail": "Form doğrulama istiyorsanız, bu class'ı form öğesine eklemelisiniz.",
+    "sidebar.api.classes.supremeValidateElement.detail": "Doğrulama olması için bu class'ı form elemanı öğesine eklemelisiniz.",
+    "sidebar.api.classes.checkboxList.detail": "Doğrulama için bu sınıfı check-box öğesine eklemelisiniz.",
+    "sidebar.api.classes.radioList.detail": "Doğrulama için bu sınıfı radio-button öğesine eklemelisiniz.",
+    
     "sidebar.api.attributes.title": "Özellikler",
     "sidebar.api.events.title": "Dinleyiciler",
 
