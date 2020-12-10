@@ -32,6 +32,12 @@
 
     "sidebar.api.title": "API",
     "sidebar.api.options.title": "Options",
+    "sidebar.api.options.type": "Type",
+    "sidebar.api.options.default": "Default",
+    "sidebar.api.options.buttonDisabled.detail": "Form button is disabled. If success fill form, form button is enabled.",
+    "sidebar.api.options.keyUpOption.detail": "If form element is changed, form element is validated.",
+    "sidebar.api.options.focusOutOption.detail": "Form element is validated only if focus out.",
+
     "sidebar.api.classes.title": "Classes",
     "sidebar.api.attributes.title": "Attributes",
     "sidebar.api.events.title": "Events",

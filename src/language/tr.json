@@ -32,6 +32,12 @@
 
     "sidebar.api.title": "API",
     "sidebar.api.options.title": "Ayarlar",
+    "sidebar.api.options.type": "Tip",
+    "sidebar.api.options.default": "Varsayılan Değer",
+    "sidebar.api.options.buttonDisabled.detail": "Form düğmesi devre dışı bırakılır. Başarılı bir şekilde formu doldurursanız, form düğmesi etkinleştirilir.",
+    "sidebar.api.options.keyUpOption.detail": "Form öğesi değiştirilirse, form öğesi doğrulanır.",
+    "sidebar.api.options.focusOutOption.detail": "Form öğesi yalnızca focus out olursa doğrulanır.",
+
     "sidebar.api.classes.title": "Sınıflar",
     "sidebar.api.attributes.title": "Özellikler",
     "sidebar.api.events.title": "Dinleyiciler",
