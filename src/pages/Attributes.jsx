@@ -1,17 +1,22 @@
-import Detail from '../components/detail';
+import { FormattedMessage } from "react-intl";
+import Detail from "../components/detail";
 
 const Attributes = props => {
     return (
         <Detail {...props}>
             <article className="detail-item">
                 <h4>error-message</h4>
-                <p className="feature"><strong>Type:</strong> String</p>
-                <p>Place one of the following script near the end of your pages, right before the closing body tag, to enable them.</p>
+                <p className="feature"><strong><FormattedMessage id="sidebar.api.options.type" defaultMessage="Type" />:</strong> String</p>
+                <p>
+                    <FormattedMessage id="sidebar.api.attributes.errorMessage.detail" defaultMessage="Custom error message after fail validation." />
+                </p>
             </article>
             <article className="detail-item">
                 <h4>min-check</h4>
-                <p className="feature"><strong>Type:</strong> String</p>
-                <p>Place one of the following script near the end of your pages, right before the closing body tag, to enable them.</p>
+                <p className="feature"><strong><FormattedMessage id="sidebar.api.options.type" defaultMessage="Type" />:</strong> String</p>
+                <p>
+                    <FormattedMessage id="sidebar.api.attributes.minCheck.detail" defaultMessage="Determines the minimum amount of options to be selected." />
+                </p>
             </article>
         </Detail>
     )

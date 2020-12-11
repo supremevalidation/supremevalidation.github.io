@@ -44,12 +44,18 @@
     "sidebar.api.classes.checkboxList.detail": "Doğrulama için bu sınıfı check-box öğesine eklemelisiniz.",
     "sidebar.api.classes.radioList.detail": "Doğrulama için bu sınıfı radio-button öğesine eklemelisiniz.",
     
-    "sidebar.api.attributes.title": "Özellikler",
+    "sidebar.api.attributes.title": "Öznitellikler",
+    "sidebar.api.attributes.errorMessage.detail": "Doğrulamadan sonra özel hata mesajı.",
+    "sidebar.api.attributes.minCheck.detail": "Seçilecek minimum seçenek miktarını belirler.",
+    
     "sidebar.api.events.title": "Dinleyiciler",
+    "sidebar.api.events.onSuccess.detail": "Bu fonksiyon, başarılı form doğrulamasından sonra çalışacaktır.",
+    "sidebar.api.events.onError.detail": "Bu fonksiyon, başarısız form doğrulamasından sonra çalışacaktır.",
 
     "sidebar.support.title": "DESTEK",
     "sidebar.support.browser.title": "Tarayıcı",
     "sidebar.support.contact.title": "İletişim",
+    "sidebar.support.contact.detail": "Soru ve sorunlarınız için mail gönderebilirsiniz. Geri bildiriminizi her zaman bekliyorum. Lütfen projemi daha iyi geliştirmek için bana yardım edin. Bana e-postayla hızlıca ulaşabilirsiniz.",
 
     "button.getstarted": "Başla",
     "copied.info": "Metin panoya kopyalandı."
