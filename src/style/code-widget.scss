@@ -47,7 +47,7 @@
         padding: 5px 10px;
         pointer-events: none;
         opacity: 0;
-        transition-duration: .5s;
+        transition-duration: 0.5s;
         transition-property: opacity;
     }
 
@@ -63,12 +63,14 @@
         font-family: "Courier New", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
         color: $black;
         white-space: pre;
+        overflow-x: scroll;
+        max-width: 100%;
     }
 
     i {
         font-size: 27px;
         color: $palesky;
-        transition-duration: .5s;
+        transition-duration: 0.5s;
         transition-property: color;
         margin-left: 50px;
     }
