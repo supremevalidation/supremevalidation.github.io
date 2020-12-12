@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import { IntlProvider } from 'react-intl';
 import { useSelector } from 'react-redux'
@@ -23,7 +23,7 @@ function App() {
     const language = useSelector(state => state.language);
 
     return (
-        <Router>
+        <HashRouter>
             <IntlProvider locale={language} messages={language === 'EN' ? English : Turkish}>
                 <Header />
                 <Container>
@@ -41,7 +41,7 @@ function App() {
                     </Switch>
                 </Container>
             </IntlProvider>
-        </Router>
+        </HashRouter>
     );
 }
 
